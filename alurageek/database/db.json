@@ -1,0 +1,35 @@
+{
+    "productos": [
+      {
+        "name": "Consola Sony Playstation 5 Slim",
+        "price": "2.500.000",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_955000-MLU75239551715_032024-F.webp",
+        "id": 2
+      },
+      {
+        "name": "Nintendo Switch Oled",
+        "price": "1.160.000",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_803086-MLA47920649105_102021-F.webp",
+        "id": 3
+      },
+      {
+        "name": "Xbox 360 1 Control, Disco Duro 500 Gb",
+        "price": "870.000",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_680895-MCO53517315697_012023-F.webp",
+        "id": 4
+      },
+      {
+        "name": "PLAYSTATION Portal para Consola PS5",
+        "price": "1.180.000",
+        "imagen": "https://www.alkosto.com/medias/711719579823-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wyNzU2MHxpbWFnZS93ZWJwfGFESXhMMmhoTXk4eE5EVXhNVEk0TVRJd09UTTNOQzgzTVRFM01UazFOems0TWpOZk1EQXhYekUwTURCWGVERTBNREJJfGRiNDhmMzExZWZmMTJiZTUwNjg1N2I3ZTdiOTZmYjFjNzI2ZmUzYzUyZjllMTc0MzFkNGMwYTg4ZmUyYWI4Yjg",
+        "id": 5
+      },
+      {
+        "name": "Consola XBOX Series S 512 GB + 1 Control Inalámbrico",
+        "price": "1.700.000",
+        "imagen": "https://www.alkosto.com/medias/889842651348-001-1400Wx1400H?context=bWFzdGVyfGltYWdlc3wxNTExMnxpbWFnZS93ZWJwfGFERXdMMmd3TlM4eE5ESTVORGN4TlRJMk9URTFNQzg0T0RrNE5ESTJOVEV6TkRoZk1EQXhYekUwTURCWGVERTBNREJJfDk1ZjNhYzgzOWViMDU5YzU3ZDJiNjIxNzg2ZTQ2YzAzYzM4NDcxMjdiZmI2YWY1ODFiZDBjNmY5YmM1MmIzNTM",
+        "id": 6
+      }
+     
+    ]
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X.UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>ALURA-GEEK</title>
+</head>
+<body>
+    <header class="encabezado"> 
+        <a><img src="imagenes/palanca-de-mando.png" alt="palanca-de-mando" class="logo" ></a>
+        <h1 class="titulo">ALURA GEEK</h1>
+    </header> 
+    
+    <main class="conteiner">
+        <section class="cards-de-productos">
+            <div class="subtitulo">
+                <h1>PRODUCTOS:</h1>
+             </div>
+            <div class="lista-card" data-cards-productos>
+
+              </div>
+        </section>
+
+        <section class="formulario-conteiner">
+            <form class="formulario-producto" data-formulario>
+                <h2 class="subtitulo-formulario">Agregar Producto:</h2>
+                <div class="datos-formulario">
+                    <input type="text" name="nombre" placeholder="nombre..." data-nombre-producto   required>
+                    <p class="parrafo-nombre"></p>
+                    
+                    <input type="number" step ="00.01"  name="precio" placeholder="precio..." data-precio-producto   required>
+                    <p class="parrafo-precio"></p>
+                   
+                    <input type="url" name="url-imagen" placeholder="urlimagen..." data-imagen-producto  required>
+                    <p class="parrafo-url"></p>
+                  </div>
+                <div class="botones">
+                <button class="boton-enviar"     type="submit"data-enviar>Enviar</button>
+                <button class="boton-limpiar"     type="button" data-limpiar>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+      <section class="pie-de-pagina">
+        <div class="logo-footer" >
+          <a><img src="imagenes/palanca-de-mando.png" alt="palanca-de-mando" class="logo" ></a>
+           <h2>Alura Geek</h2>
+        </div>
+            <p>Desarrollado por Julio Higuita</p>
+            &copy; 2024
+      </section>
+    </footer>
+    <script type="module" src="js/mostrarProducto.js"></script>
+</body>
+</html>
